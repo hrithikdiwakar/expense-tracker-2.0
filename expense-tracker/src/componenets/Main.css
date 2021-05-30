@@ -1,0 +1,10 @@
+.underline{
+    display: block;
+    padding:1rem;
+    text-align: center;
+
+}
+
+.text-underline{
+    text-decoration: underline;
+}
