@@ -7,18 +7,43 @@
   width: 350px;
 }
 
-.income-expense{
-    background-color: #fff;
-    box-shadow: var(--box-shadow);
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    margin: 20px 0;
+.header {
+  text-align: center;
+}
+.displayuser {
+  display: block;
+  text-align: left;
+  margin-left: 0;
+  color: #330bfc;
+  margin: 1.5rem 0;
 }
 
-.income-expense > div{
-    flex: 1;
-    text-align: center;
+.logout {
+  display: block;
+  margin-left: 230px;
+  background-color: #9c88ff;
+  color: #fff;
+  padding: 0.3rem 1rem;
+  font-size: 1.2rem;
+}
+
+.logout:hover {
+  background-color: #fff;
+  color: #9c88ff;
+}
+
+.income-expense {
+  background-color: rgb(255, 255, 255);
+  box-shadow: var(--box-shadow);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.income-expense > div {
+  flex: 1;
+  text-align: center;
 }
 
 .income-expense > div:first-of-type {
@@ -60,29 +85,86 @@
   border-right: 5px solid #2ecc71;
 }
 
-
 .list li.minus {
   border-right: 5px solid #c0392b;
 }
 
-
-.new-transaction{
-    display:flex;
-    align-items: center;
-    justify-content: center;
+.new-transaction {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.transaction-text{
-    
+.newTransaction {
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 0;
+  padding: 10px;
+  margin: 0 0 10px;
+  font-size: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
+.newTransaction input[type="text"],
+.newTransaction select {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  font-size: 13px;
+  padding: 7px;
+}
+
+.newTransaction input[type="text"]:focus,
+.newTransaction select:focus {
+  outline: none;
+}
+
+.inputGroup {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.inputGroup > select {
+  font-size: 1rem;
+}
+
+.textinput input[type="text"] {
+  font-size: 1rem;
+}
+
+.displayflex {
+  display: flex;
+}
+.transaction-text {
 }
 
 .transaction-text > input {
-    border: 1px solid #dedede;
-    border-radius: 2px;
-    display: block;
-    font-size: 16px;
-    padding: 5px;
-    width: 100%;
-    margin-bottom: 10px;
+  border: 1px solid #dedede;
+  border-radius: 2px;
+  display: block;
+  font-size: 16px;
+  padding: 5px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.addTransaction {
+  display: block;
+  margin: auto;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  width: 100%;
+  background-color: #9c88ff;
+  box-shadow: var(--box-shadow);
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border: 0;
+}
+
+.addTransaction:focus {
+  outline: 0;
 }
