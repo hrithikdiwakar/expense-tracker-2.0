@@ -59,7 +59,7 @@ class  Tracker extends React.Component {
                 transactions: BackUpState,
                 money : transactionType === 'deposit' ? money + parseFloat(price) : money-parseFloat(price),
                 income : transactionType === 'deposit' ? income + parseFloat(price) : income + 0,
-                expense : transactionType === 'expense' ? money + parseFloat(price) : expense - 0,
+                expense : transactionType === 'expense' ? expense + parseFloat(price) : expense - 0,
                 transactionName: '',
                 transactionType: '',
                 price: ''
@@ -99,7 +99,7 @@ class  Tracker extends React.Component {
                 totalExpense = 
                     childSnapshot.val().type === 'expense' ? 
                     parseFloat(childSnapshot.val().price) + totalExpense
-                    : totalExpense - 0;
+                    : totalExpense + 0;
                 
                 BackUpState.push({
                     id: childSnapshot.val().id,

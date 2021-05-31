@@ -1,101 +1,99 @@
-@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css');
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css");
 
-@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js');
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js");
 
 @import url("https://code.jquery.com/jquery-1.11.1.min.js");
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap");
 body {
-    font-family: "Lato", sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
-
-
-.main-head{
-    height: 150px;
-    background: #FFF;
-   
+.main-head {
+  height: 150px;
+  background: #fff;
 }
 
 .sidenav {
-    height: 100%;
-    background-color: black;
-    overflow-x: hidden;
-    padding-top: 20px;
+  height: 100%;
+  background-color: black;
+  overflow-x: hidden;
+  padding-top: 20px;
 }
 
-
 .main {
-    padding: 0px 10px;
+  padding: 0px 10px;
 }
 
 @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
+  .sidenav {
+    padding-top: 15px;
+  }
 }
 
 @media screen and (max-width: 450px) {
-    .login-form{
-        margin-top: 10%;
-    }
+  .login-form {
+    margin-top: 10%;
+  }
 
-    .register-form{
-        margin-top: 10%;
-    }
+  .register-form {
+    margin-top: 10%;
+  }
 }
 
-@media screen and (min-width: 768px){
-    .main{
-        margin-left: 40%; 
-    }
+@media screen and (min-width: 768px) {
+  .main {
+    margin-left: 40%;
+  }
 
-    .sidenav{
-        width: 40%;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        left: 0;
-    }
+  .sidenav {
+    width: 40%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+  }
 
-    .login-form{
-        margin-top: 50%;
-    }
+  .login-form {
+    margin-top: 50%;
+  }
 
-    .register-form{
-        margin-top: 20%;
-    }
-
-    .mybtn{
-        margin-left: 50%;
-        margin-top:10px;
-    }
-}
-
-
-.login-main-text{
+  .register-form {
     margin-top: 20%;
-    padding: 60px;
-    color: #fff;
+  }
+
+  .mybtn {
+    margin-left: 50%;
+    margin-top: 10px;
+  }
 }
 
-.login-main-text h2{
-    font-weight: 500;
+.login-main-text {
+  margin-top: 20%;
+  padding: 60px;
+  color: #fff;
 }
 
-.btn-secondary{
-    background-color: darkgray;
-}
-.underline{
-    display: block;
-    padding:1rem;
-    margin:auto;
-    text-align: center;
-
+.login-main-text h2 {
+  font-weight: 500;
 }
 
-.text-underline{
-    text-decoration: underline;
-    cursor: pointer !important;
+.btn-secondary {
+  background-color: darkgray;
+}
+.underline {
+  display: block;
+  padding: 1rem;
+  margin: auto;
+  text-align: center;
 }
 
-.error{
-    color: red;
-    text-align: center;
+.text-underline {
+  text-decoration: underline;
+  cursor: pointer !important;
+}
+
+.error {
+  color: red;
+  text-align: center;
 }

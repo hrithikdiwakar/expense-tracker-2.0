@@ -1,0 +1,25 @@
+[debug] [2021-05-31T16:02:01.690Z] ----------------------------------------------------------------------
+[debug] [2021-05-31T16:02:01.692Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Hrithik's\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-05-31T16:02:01.692Z] CLI Version:   9.12.0
+[debug] [2021-05-31T16:02:01.692Z] Platform:      win32
+[debug] [2021-05-31T16:02:01.692Z] Node Version:  v12.18.3
+[debug] [2021-05-31T16:02:01.693Z] Time:          Mon May 31 2021 21:32:01 GMT+0530 (India Standard Time)
+[debug] [2021-05-31T16:02:01.693Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-05-31T16:02:01.700Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-05-31T16:02:01.700Z] > authorizing via signed-in user (hrithikdiwakar13@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Hrithik's\Documents\GitHub\learn\python\expense-tracker-2.0\expense-tracker
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
